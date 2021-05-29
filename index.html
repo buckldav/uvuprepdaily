@@ -44,12 +44,12 @@
     #content p{
       font-size: .75em;
     }
-    #button p{
+    .button p{
       padding: 5%;
       color: #fff;
-      font-size: .30em;
+      font-size: .30em !important;
     }
-    #button{
+    .button{
       margin-top: 30px;
       height: 5%;
       width: 25%;
@@ -58,10 +58,10 @@
       justify-content: center;
       align-items: center;
     }
-    #button:link{
+    .button:link{
       text-decoration: none;
     }
-    #button:hover{
+    .button:hover{
       background: #8C8B89;
     }
     #logo {
@@ -74,10 +74,10 @@
       #content p{
         font-size: .50em;
       }
-      #button p{
-        font-size: .45em;
+      .button p{
+        font-size: .45em !important;
       }
-      #button{
+      .button{
         width: 30%;
       }
     }
@@ -88,10 +88,10 @@
       #content p{
         font-size: .505em;
       }
-      #button p{
-        font-size: .45em;
+      .button p{
+        font-size: .45em !important;
       }
-      #button{
+      .button{
         width: 35%;
       }
     }
@@ -103,8 +103,14 @@
   <img src="img/mascot.png" alt="" id="logo">        
   <p>UVU PREP</p>
   <h2>Computer Science</h2>
-  <a href="objective.html" id="button">
+  <a href="objective.html" class="button">
     <p>Today's Objective</p>
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://codecombat.com/play" class="button">
+    <p>CodeCombat</p>
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://code.org/hourofcode/overview" class="button">
+    <p>Code.org Hour of Code</p>
   </a>    
 </div>
 
