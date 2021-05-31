@@ -15,6 +15,14 @@
       -moz-background-size: cover;
       background-size: cover;
     } 
+    .row {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .row>* {
+      margin: 0 1rem;
+    }
     p, h2{
       margin: 0;
       padding: 0;
@@ -57,6 +65,12 @@
       display: flex; 
       justify-content: center;
       align-items: center;
+    }
+    .button.orange {
+      background: #FF4000;
+    }
+    .button.pink {
+      background: #eb4b98;
     }
     .button:link{
       text-decoration: none;
@@ -106,12 +120,26 @@
   <a href="objective.html" class="button">
     <p>Today's Objective</p>
   </a>
-  <a target="_blank" rel="noopener noreferrer" href="https://codecombat.com/play" class="button">
-    <p>CodeCombat</p>
-  </a>
-  <a target="_blank" rel="noopener noreferrer" href="https://code.org/hourofcode/overview" class="button">
-    <p>Code.org Hour of Code</p>
-  </a>    
+  <div class="row">
+    <a target="_blank" rel="noopener noreferrer" href="https://codecombat.com/play" class="button pink">
+      <p>CodeCombat</p>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://code.org/hourofcode/overview" class="button pink">
+      <p>Code.org Hour of Code</p>
+    </a>  
+  </div>
+  <div class="row">
+    <a target="_blank" rel="noopener noreferrer" href="https://zoom.us/j/98287479682?pwd=V2VaTkx5SUJsdnpwL1B6RzNEbklFUT09" class="button orange">
+      <p>Zoom Class 1 (9:35)</p>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://zoom.us/j/96748518960?pwd=YzFiNUNlYXl5ZHQ2akN5R3NWb0UyUT09" class="button orange">
+      <p>Zoom Class 2 (12:00)</p>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://zoom.us/j/91050161007?pwd=YnVYWnJNWUhIaGowMGFzV1UrVGF2UT09" class="button orange">
+      <p>Zoom Class 3 (1:35)</p>
+    </a>   
+  </div>
+    
 </div>
 
 </body>
