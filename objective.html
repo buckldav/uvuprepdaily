@@ -58,7 +58,7 @@
     <p id="date"></p>
     <script>
       const dateP = document.querySelector("#date");
-      const date = new Date().toDateString().split();
+      const date = new Date().toDateString().split(" ");
       dateP.innerHTML = `${date[1]} ${date[2]}`;
     </script>
   </div>
