@@ -55,7 +55,12 @@
 </head>
 <body>
   <div id="header">
-    <p>June 14</p>
+    <p id="date"></p>
+    <script>
+      const dateP = document.querySelector("#date");
+      const date = new Date().toDateString().split();
+      dateP.innerHTML = `${date[1]} ${date[2]}`;
+    </script>
   </div>
   <div id="content"> 
     <p>Announcement: Quizzes/Tests no retakes, Assignments can be redone and no late points.</p>
